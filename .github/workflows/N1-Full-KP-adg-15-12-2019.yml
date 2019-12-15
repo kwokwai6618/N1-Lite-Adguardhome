@@ -41,7 +41,7 @@ jobs:
     - name: Clone config
       run: |
         cd /home/runner/lede/
-        wget https://raw.githubusercontent.com/Mattaclp/N1-Lite-Adguardhome/master/.config
+        wget https://raw.githubusercontent.com/kwokwai6618/N1-Lite-Adguardhome/master/.config
     - name: Build
       run: | 
         cd /home/runner/lede 
